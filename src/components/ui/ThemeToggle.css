@@ -1,0 +1,28 @@
+/* File: src/components/ui/ThemeToggle.css */
+.theme-toggle-btn {
+  background-color: var(--card-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.theme-toggle-btn svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.theme-toggle-btn:hover svg {
+  transform: rotate(15deg);
+}

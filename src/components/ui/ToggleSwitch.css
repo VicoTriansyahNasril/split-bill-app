@@ -1,0 +1,30 @@
+/* File: src/components/ui/ToggleSwitch.css */
+.toggle-switch {
+  display: flex;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.toggle-switch button {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+  color: var(--text-muted);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toggle-switch.small button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8em;
+}
+
+.toggle-switch button.active {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

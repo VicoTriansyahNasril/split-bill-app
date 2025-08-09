@@ -1,0 +1,30 @@
+/* File: src/components/ui/Editable.css */
+.editable-wrapper {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: 1px solid transparent;
+}
+
+.editable-wrapper:hover {
+  background-color: rgba(129, 140, 248, 0.2);
+  border-color: var(--primary-color);
+}
+
+.edit-input {
+  width: 100%;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: inherit;
+  font-weight: inherit;
+  box-sizing: border-box;
+}
+.edit-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-hover);
+}
