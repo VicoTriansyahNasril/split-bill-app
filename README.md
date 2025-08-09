@@ -1,11 +1,20 @@
-# Split Bill 💸
+# PatunganYuk 💸
 
 Aplikasi web modern dan dinamis untuk membagi tagihan secara adil dan mudah. Dibuat dengan ReactJS, aplikasi ini dirancang untuk menangani skenario pembagian tagihan yang paling rumit sekalipun, mulai dari pesanan personal hingga item yang dibagi rata, dengan antarmuka yang intuitif dan responsif.
 
 ---
 
-### _Tautan Demo Langsung Akan Segera Tersedia_
+### [**➡️ Lihat Demo Langsung ⬅️**](https://split-bill-app-gold.vercel.app/)
 
+<!-- 
+PENTING: Ganti URL di bawah ini dengan URL screenshot/GIF Anda. 
+Cara termudah:
+1. Ambil screenshot aplikasi Anda.
+2. Buka halaman repositori di GitHub, klik edit pada file README.md.
+3. Drag-and-drop file gambar Anda ke area teks. GitHub akan meng-uploadnya dan memberikan URL.
+4. Salin URL tersebut dan tempel di sini.
+-->
+![Tangkapan Layar Aplikasi PatunganYuk](https://your-screenshot-link.com/screenshot.gif)
 
 ## ✨ Fitur Unggulan
 
@@ -14,8 +23,8 @@ Aplikasi ini dilengkapi dengan berbagai fitur untuk memastikan pengalaman penggu
 #### Manajemen Tagihan Dinamis
 - **Tambah/Hapus Peserta:** Kelola daftar orang yang ikut patungan dengan mudah.
 - **Tambah/Hapus Item:** Input nama pesanan beserta harga satuannya.
-- **Kuantitas Fleksibel:** Tentukan jumlah setiap item yang dipesan (misal: 4x Mixue).
-- **Edit "In-place":** Klik dua kali (atau ikon pensil) pada nama, harga, atau kuantitas untuk mengeditnya secara langsung.
+- **Kuantitas Fleksibel:** Tentukan jumlah setiap item yang dipesan.
+- **Edit Langsung (In-place):** Klik dua kali atau ikon pensil pada nama, harga, atau kuantitas untuk mengeditnya secara langsung.
 - **Biaya Tambahan Fleksibel:** Atur Pajak dan Biaya Layanan dalam bentuk **Persentase (%)** atau **Nominal (Rp)**.
 
 #### Sistem Penugasan Canggih
@@ -31,7 +40,7 @@ Aplikasi ini dilengkapi dengan berbagai fitur untuk memastikan pengalaman penggu
 - **Umpan Balik Interaktif:**
     - **Highlight:** Arahkan kursor ke nama di ringkasan untuk menyorot item yang mereka pesan.
     - **Confetti:** Rayakan keberhasilan perhitungan dengan efek confetti yang memuaskan.
-    - **Modal Konfirmasi Elegan:** Validasi tindakan penting (seperti menghapus) dengan modal kustom.
+    - **Modal Konfirmasi Kustom:** Validasi tindakan penting (seperti menghapus) dengan modal yang elegan.
 - **Salin Ringkasan Lengkap:** Salin hasil perhitungan dengan detail lengkap ke clipboard, siap untuk dibagikan di chat.
 
 #### Persistensi Data
@@ -44,6 +53,7 @@ Aplikasi ini dilengkapi dengan berbagai fitur untuk memastikan pengalaman penggu
 - **State Management:** [React Context API](https://reactjs.org/docs/context.html)
 - **Animasi:** [Framer Motion](https://www.framer.com/motion/)
 - **Styling:** CSS Murni dengan arsitektur modern
+- **Deployment:** [Vercel](https://vercel.com/)
 
 ## 🚀 Cara Menjalankan Proyek Secara Lokal
 
@@ -73,4 +83,4 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di mesin lokal Anda.
 
 ---
 
-Dibuat dengan ❤️ oleh **Vico Triansyah Nasril**
+Terimakasih sudah berkunjung!
