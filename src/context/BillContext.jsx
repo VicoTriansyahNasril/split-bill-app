@@ -54,7 +54,8 @@ export const BillProvider = ({ children }) => {
   const addItem = (name, priceString, quantity) => {
     const price = parseFormattedNumber(priceString);
     if (name && price > 0 && quantity > 0) {
-      setItems([...items, { id: Date.now(), name, price, quantity: Number(quantity), isShared: false, assignments: [] }]);
+      const newItem = { id: Date.now(), name, price, quantity: Number(quantity), isShared: false, assignments: [] };
+      setItems(currentItems => [newItem, ...currentItems]);
     }
   };
 
